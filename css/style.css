@@ -71,12 +71,14 @@ body {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+		margin: 0;
 	}
 }
 @media (min-width: 1024px) {
 	.cards {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
+		padding-top: 4rem;
 	}
 }
 
